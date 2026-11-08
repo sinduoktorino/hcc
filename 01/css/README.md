@@ -13,15 +13,13 @@ Dibangun tanpa framework dan tanpa build step: **HTML + CSS + JavaScript**.
 - [x] **Fase 1** — Struktur proyek, design token, font, metadata SEO
 - [x] **Fase 2** — Navbar, Hero, About, Skills, Projects, Contact, Footer, responsif 320–1920px
 - [x] **Fase 3** — Data proyek & keahlian terpusat, filter kategori, salin email
-- [x] **Fase 4 (UI)** — Validasi form, honeypot, status loading; pengiriman memakai `mailto:` sebagai fallback
-- [x] **Fase 5 (SEO)** — `sitemap.xml` dan metadata sosial
 
 ## Struktur Folder
 
 ```text
 hcc/
 ├── index.html                 # Halaman utama
-├── 404.html                   # Halaman error statis
+|                              # Halaman error statis
 ├── css/
 │   └── styles.css             # Design token, komponen, responsif
 ├── js/
@@ -32,25 +30,9 @@ hcc/
 │   ├── favicon.svg
 │   ├── cv/                    # Letakkan PDF CV di sini
 │   └── images/                # Mockup proyek, og-cover.png (sosial), og-cover.svg (sumber)
-├── sitemap.xml
+|
 └── websindu.md                # Dokumen kebutuhan awal
 ```
-
-## Menjalankan Secara Lokal
-
-Karena halaman memuat skrip eksternal, jalankan lewat server lokal:
-
-```bash
-npx --yes serve . -l 4173
-```
-
-Alternatif jika Python tersedia:
-
-```bash
-python -m http.server 4173
-```
-
-Lalu buka `http://localhost:4173`.
 
 ## Mengedit Konten
 
@@ -89,9 +71,7 @@ Jika nama file berbeda, sesuaikan atribut `href` tombol **Unduh CV** di
 3. **Proyek** — enam proyek di `js/data.js` adalah **contoh** untuk menunjukkan
    struktur. Ganti dengan proyek nyata, termasuk `demoUrl` dan `repoUrl`.
 4. **CV** — pastikan PDF tersedia di `assets/cv/`.
-5. **Domain** — canonical, Open Graph, dan `sitemap.xml` sudah memakai
-   `sinduoktorino.com`. Sesuaikan bila domain berubah.
-6. **Gambar sosial** — `assets/images/og-cover.png` adalah hasil render dari
+5. **Gambar sosial** — `assets/images/og-cover.png` adalah hasil render dari
    `og-cover.svg` (1200×630). Jika mengubah desain, perbarui SVG lalu render
    ulang ke PNG agar pratinjau di media sosial ikut berubah.
 
@@ -103,18 +83,6 @@ Saat ini form melakukan:
 - Honeypot field (`company`) untuk menyaring bot sederhana
 - Status loading dan pesan sukses/error
 - Pengiriman melalui `mailto:` (membuka aplikasi email pengunjung)
-
-Untuk pengiriman otomatis, pilih salah satu:
-
-- **Formspree / EmailJS** — layanan form pihak ketiga.
-- **API sendiri** — hanya jika nanti memakai runtime server.
-
-Rate limiting dan sanitasi server-side tidak dapat dijalankan murni di sisi klien.
-
-## Keamanan
-
-Form memakai validasi sisi klien dan honeypot. Tidak ada konfigurasi header
-server-side karena proyek ini dijalankan secara lokal.
 
 ## Aksesibilitas & Performa
 
