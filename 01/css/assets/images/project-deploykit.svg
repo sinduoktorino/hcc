@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">Mockup antarmuka DeployKit</title>
+  <desc id="desc">Pipeline deployment dengan tiga tahap dan terminal perintah Docker.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#111c33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="690" cy="90" r="180" fill="#2dd4bf" opacity="0.08"/>
+  <circle cx="80" cy="440" r="150" fill="#818cf8" opacity="0.08"/>
+  <rect x="60" y="60" width="680" height="380" rx="18" fill="#111c33" stroke="#24324a" stroke-width="1.5"/>
+  <rect x="60" y="60" width="680" height="46" rx="18" fill="#16233d"/>
+  <rect x="60" y="88" width="680" height="18" fill="#16233d"/>
+  <circle cx="88" cy="83" r="6" fill="#fb7185"/>
+  <circle cx="108" cy="83" r="6" fill="#fbbf24"/>
+  <circle cx="128" cy="83" r="6" fill="#34d399"/>
+  <text x="150" y="88" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="12">deploykit / pipeline</text>
+  <text x="82" y="142" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" font-weight="700">Pipeline Deployment</text>
+  <text x="82" y="162" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="10">main · commit 8f2c1a · 2 menit lalu</text>
+  <rect x="566" y="126" width="152" height="28" rx="14" fill="#16233d" stroke="#2dd4bf" stroke-opacity="0.35"/>
+  <text x="642" y="145" text-anchor="middle" fill="#2dd4bf" font-family="'JetBrains Mono', monospace" font-size="9">● BERHASIL</text>
+  <g>
+    <rect x="82" y="190" width="180" height="92" rx="12" fill="#16233d" stroke="#2dd4bf" stroke-opacity="0.45"/>
+    <text x="100" y="216" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">01 / BUILD</text>
+    <text x="100" y="242" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700">docker build</text>
+    <text x="100" y="262" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="9">✔ 12.4s</text>
+  </g>
+  <g>
+    <rect x="310" y="190" width="180" height="92" rx="12" fill="#16233d" stroke="#2dd4bf" stroke-opacity="0.45"/>
+    <text x="328" y="216" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">02 / TEST</text>
+    <text x="328" y="242" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700">health check</text>
+    <text x="328" y="262" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="9">✔ 3.1s</text>
+  </g>
+  <g>
+    <rect x="538" y="190" width="180" height="92" rx="12" fill="#16233d" stroke="#2dd4bf" stroke-opacity="0.45"/>
+    <text x="556" y="216" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">03 / DEPLOY</text>
+    <text x="556" y="242" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700">compose up</text>
+    <text x="556" y="262" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="9">✔ 5.8s</text>
+  </g>
+  <line x1="262" y1="236" x2="310" y2="236" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="490" y1="236" x2="538" y2="236" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="4 4"/>
+  <rect x="82" y="306" width="636" height="112" rx="12" fill="#0f172a" stroke="#24324a"/>
+  <text x="102" y="332" fill="#2dd4bf" font-family="'JetBrains Mono', monospace" font-size="11">$ docker compose up -d --build</text>
+  <text x="102" y="356" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="10">[+] Building 12.4s (14/14) FINISHED</text>
+  <text x="102" y="378" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="10">✔ Container api        Started</text>
+  <text x="102" y="400" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="10">✔ Container nginx      Started</text>
+</svg>

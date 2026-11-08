@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">Mockup antarmuka Arus Data</title>
+  <desc id="desc">Dashboard analitik dengan kartu metrik dan grafik garis real-time.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#111c33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="690" cy="70" r="170" fill="#2dd4bf" opacity="0.08"/>
+  <circle cx="90" cy="430" r="150" fill="#818cf8" opacity="0.08"/>
+  <rect x="60" y="60" width="680" height="380" rx="18" fill="#111c33" stroke="#24324a" stroke-width="1.5"/>
+  <rect x="60" y="60" width="680" height="46" rx="18" fill="#16233d"/>
+  <rect x="60" y="88" width="680" height="18" fill="#16233d"/>
+  <circle cx="88" cy="83" r="6" fill="#fb7185"/>
+  <circle cx="108" cy="83" r="6" fill="#fbbf24"/>
+  <circle cx="128" cy="83" r="6" fill="#34d399"/>
+  <text x="150" y="88" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="12">arus-data / dashboard</text>
+  <rect x="82" y="130" width="150" height="290" rx="12" fill="#0f172a" stroke="#24324a"/>
+  <rect x="96" y="148" width="92" height="10" rx="5" fill="#2dd4bf"/>
+  <rect x="96" y="178" width="112" height="8" rx="4" fill="#334155"/>
+  <rect x="96" y="202" width="96" height="8" rx="4" fill="#334155"/>
+  <rect x="96" y="226" width="104" height="8" rx="4" fill="#334155"/>
+  <rect x="96" y="250" width="80" height="8" rx="4" fill="#334155"/>
+  <rect x="96" y="382" width="120" height="24" rx="12" fill="#16233d" stroke="#24324a"/>
+  <text x="156" y="398" text-anchor="middle" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">REAL-TIME</text>
+  <text x="258" y="160" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" font-weight="700">Ringkasan Operasional</text>
+  <text x="258" y="182" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="11">data real-time · 24 jam terakhir</text>
+  <g>
+    <rect x="258" y="200" width="140" height="72" rx="10" fill="#16233d" stroke="#24324a"/>
+    <text x="274" y="222" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">PENGIRIMAN</text>
+    <text x="274" y="250" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" font-weight="700">1.284</text>
+    <text x="274" y="264" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="9">+12,4%</text>
+  </g>
+  <g>
+    <rect x="418" y="200" width="140" height="72" rx="10" fill="#16233d" stroke="#24324a"/>
+    <text x="434" y="222" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">AKURASI</text>
+    <text x="434" y="250" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" font-weight="700">99,2%</text>
+    <text x="434" y="264" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="9">+0,8%</text>
+  </g>
+  <g>
+    <rect x="578" y="200" width="140" height="72" rx="10" fill="#16233d" stroke="#24324a"/>
+    <text x="594" y="222" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">LATENSI</text>
+    <text x="594" y="250" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="24" font-weight="700">42 ms</text>
+    <text x="594" y="264" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="9">-18,2%</text>
+  </g>
+  <rect x="258" y="288" width="460" height="132" rx="12" fill="#0f172a" stroke="#24324a"/>
+  <path d="M278 390 L318 360 L358 370 L398 330 L438 345 L478 310 L518 322 L558 295 L598 305 L638 280 L678 292 L678 400 L278 400 Z" fill="url(#area)"/>
+  <path d="M278 390 L318 360 L358 370 L398 330 L438 345 L478 310 L518 322 L558 295 L598 305 L638 280 L678 292" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="678" cy="292" r="4" fill="#22d3ee"/>
+  <text x="278" y="312" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">VOLUME / JAM</text>
+</svg>

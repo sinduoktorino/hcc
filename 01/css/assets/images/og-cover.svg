@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="ogTitle ogDesc">
+  <title id="ogTitle">Sindu Oktorino — Full-Stack Developer &amp; Systems Builder</title>
+  <desc id="ogDesc">Kartu sosial portofolio Sindu Oktorino dengan latar gelap dan aksen teal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1030" cy="90" r="230" fill="#2dd4bf" opacity="0.09"/>
+  <circle cx="140" cy="570" r="210" fill="#818cf8" opacity="0.08"/>
+  <rect x="60" y="60" width="1080" height="510" rx="28" fill="#111c33" stroke="#24324a" stroke-width="1.5"/>
+  <text x="110" y="190" fill="#2dd4bf" font-family="'JetBrains Mono', monospace" font-size="20" letter-spacing="3">PORTOFOLIO / 2026</text>
+  <text x="110" y="290" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="64" font-weight="800" letter-spacing="-2">Sindu Oktorino</text>
+  <text x="110" y="350" fill="#a3b3c9" font-family="Inter, 'Segoe UI', sans-serif" font-size="28">Full-Stack Developer &amp; Systems Builder</text>
+  <rect x="110" y="410" width="250" height="48" rx="24" fill="url(#accent)"/>
+  <text x="235" y="441" text-anchor="middle" fill="#042f2e" font-family="Inter, 'Segoe UI', sans-serif" font-size="18" font-weight="700">sinduoktorino.com</text>
+  <text x="110" y="520" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="16">Backend · Cloud / DevOps · Frontend</text>
+  <g transform="translate(830 200)">
+    <rect width="210" height="210" rx="44" fill="url(#accent)"/>
+    <text x="105" y="138" text-anchor="middle" fill="#042f2e" font-family="Inter, 'Segoe UI', sans-serif" font-size="76" font-weight="800">SO</text>
+  </g>
+</svg>

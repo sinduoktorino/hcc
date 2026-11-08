@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">Mockup antarmuka Kirim Cepat</title>
+  <desc id="desc">Panel API pengiriman dengan contoh request JSON dan status pelacakan paket.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#111c33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="710" cy="90" r="180" fill="#22d3ee" opacity="0.08"/>
+  <circle cx="70" cy="440" r="150" fill="#818cf8" opacity="0.08"/>
+  <rect x="60" y="60" width="680" height="380" rx="18" fill="#111c33" stroke="#24324a" stroke-width="1.5"/>
+  <rect x="60" y="60" width="680" height="46" rx="18" fill="#16233d"/>
+  <rect x="60" y="88" width="680" height="18" fill="#16233d"/>
+  <circle cx="88" cy="83" r="6" fill="#fb7185"/>
+  <circle cx="108" cy="83" r="6" fill="#fbbf24"/>
+  <circle cx="128" cy="83" r="6" fill="#34d399"/>
+  <text x="150" y="88" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="12">kirim-cepat / api</text>
+  <rect x="82" y="130" width="390" height="290" rx="12" fill="#0f172a" stroke="#24324a"/>
+  <text x="102" y="160" fill="#2dd4bf" font-family="'JetBrains Mono', monospace" font-size="12">POST /v1/shipments</text>
+  <text x="102" y="186" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="11">Content-Type: application/json</text>
+  <text x="102" y="218" fill="#c4b5fd" font-family="'JetBrains Mono', monospace" font-size="11">{</text>
+  <text x="118" y="240" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="11">"origin"</text>
+  <text x="196" y="240" fill="#86efac" font-family="'JetBrains Mono', monospace" font-size="11">: "Jakarta",</text>
+  <text x="118" y="262" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="11">"destination"</text>
+  <text x="232" y="262" fill="#86efac" font-family="'JetBrains Mono', monospace" font-size="11">: "Surabaya",</text>
+  <text x="118" y="284" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="11">"weight"</text>
+  <text x="196" y="284" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="11">: 2.4</text>
+  <text x="102" y="306" fill="#c4b5fd" font-family="'JetBrains Mono', monospace" font-size="11">}</text>
+  <rect x="102" y="332" width="350" height="1" fill="#24324a"/>
+  <text x="102" y="360" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12">200 OK</text>
+  <text x="102" y="384" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="11">{"tracking_id": "KC-8841", "status": "in_transit"}</text>
+  <text x="102" y="406" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="11">latency: 42ms · rate-limit: 3/10m</text>
+  <rect x="492" y="130" width="226" height="290" rx="12" fill="#0f172a" stroke="#24324a"/>
+  <text x="512" y="158" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="13" font-weight="700">Pelacakan Paket</text>
+  <text x="512" y="178" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="10">KC-8841</text>
+  <circle cx="522" cy="212" r="6" fill="#2dd4bf"/>
+  <rect x="520" y="218" width="2" height="46" fill="#24324a"/>
+  <circle cx="522" cy="270" r="6" fill="#2dd4bf"/>
+  <rect x="520" y="276" width="2" height="46" fill="#24324a"/>
+  <circle cx="522" cy="328" r="6" fill="#24324a" stroke="#7c8da6" stroke-width="2"/>
+  <text x="542" y="210" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="11">Diterima</text>
+  <text x="542" y="226" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">08:12 · Jakarta</text>
+  <text x="542" y="268" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="11">Dalam perjalanan</text>
+  <text x="542" y="284" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">11:40 · Cirebon</text>
+  <text x="542" y="326" fill="#7c8da6" font-family="Inter, 'Segoe UI', sans-serif" font-size="11">Tiba di tujuan</text>
+  <text x="542" y="342" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">estimasi 16:30</text>
+  <rect x="512" y="374" width="186" height="26" rx="13" fill="#16233d" stroke="#24324a"/>
+  <text x="605" y="391" text-anchor="middle" fill="#2dd4bf" font-family="'JetBrains Mono', monospace" font-size="9">WEBHOOK AKTIF</text>
+</svg>

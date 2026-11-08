@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-labelledby="title desc">
+  <title id="title">Mockup antarmuka Cuaca Kita</title>
+  <desc id="desc">Aplikasi cuaca dengan suhu utama, kondisi langit, dan prakiraan beberapa hari.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#111c33"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#164e63"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="700" cy="80" r="180" fill="#22d3ee" opacity="0.08"/>
+  <circle cx="80" cy="440" r="150" fill="#818cf8" opacity="0.08"/>
+  <rect x="60" y="60" width="680" height="380" rx="18" fill="#111c33" stroke="#24324a" stroke-width="1.5"/>
+  <rect x="60" y="60" width="680" height="46" rx="18" fill="#16233d"/>
+  <rect x="60" y="88" width="680" height="18" fill="#16233d"/>
+  <circle cx="88" cy="83" r="6" fill="#fb7185"/>
+  <circle cx="108" cy="83" r="6" fill="#fbbf24"/>
+  <circle cx="128" cy="83" r="6" fill="#34d399"/>
+  <text x="150" y="88" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="12">cuaca-kita / hari ini</text>
+  <text x="82" y="142" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" font-weight="700">Cuaca Kita</text>
+  <rect x="470" y="120" width="248" height="32" rx="16" fill="#0f172a" stroke="#24324a"/>
+  <text x="490" y="141" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="10">Cari kota...</text>
+  <circle cx="696" cy="136" r="7" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="701" y1="141" x2="707" y2="147" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round"/>
+  <rect x="82" y="172" width="340" height="248" rx="16" fill="url(#sky)" stroke="#24324a"/>
+  <text x="104" y="204" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700">Jakarta, ID</text>
+  <text x="104" y="222" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">Senin, 08 November</text>
+  <circle cx="330" cy="244" r="38" fill="url(#sun)" opacity="0.95"/>
+  <circle cx="352" cy="262" r="24" fill="#e2e8f0" opacity="0.9"/>
+  <circle cx="330" cy="262" r="22" fill="#e2e8f0" opacity="0.9"/>
+  <text x="104" y="304" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="72" font-weight="800">28°</text>
+  <text x="104" y="334" fill="#a3b3c9" font-family="Inter, 'Segoe UI', sans-serif" font-size="13">Cerah berawan</text>
+  <text x="104" y="358" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">Terasa seperti 31° · Kelembapan 72%</text>
+  <rect x="104" y="378" width="296" height="1" fill="#24324a" opacity="0.7"/>
+  <text x="104" y="400" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">Angin 12 km/j · UV sedang</text>
+  <g>
+    <rect x="442" y="172" width="120" height="112" rx="12" fill="#16233d" stroke="#24324a"/>
+    <text x="458" y="196" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">SELASA</text>
+    <circle cx="502" cy="222" r="14" fill="#fbbf24" opacity="0.9"/>
+    <text x="502" y="264" text-anchor="middle" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" font-weight="700">30°</text>
+  </g>
+  <g>
+    <rect x="574" y="172" width="120" height="112" rx="12" fill="#16233d" stroke="#24324a"/>
+    <text x="590" y="196" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">RABU</text>
+    <path d="M588 228 a10 10 0 0 1 18 -4 a8 8 0 1 1 4 15 h-20 a8 8 0 0 1 -2 -11z" fill="#a3b3c9" opacity="0.85"/>
+    <text x="634" y="264" text-anchor="middle" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" font-weight="700">27°</text>
+  </g>
+  <g>
+    <rect x="442" y="296" width="120" height="112" rx="12" fill="#16233d" stroke="#24324a"/>
+    <text x="458" y="320" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">KAMIS</text>
+    <path d="M490 352 l-8 12 h6 l-4 10 12 -14 h-6 l4 -8z" fill="#22d3ee"/>
+    <text x="502" y="388" text-anchor="middle" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" font-weight="700">26°</text>
+  </g>
+  <g>
+    <rect x="574" y="296" width="120" height="112" rx="12" fill="#16233d" stroke="#24324a"/>
+    <text x="590" y="320" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">JUMAT</text>
+    <circle cx="634" cy="348" r="14" fill="#fbbf24" opacity="0.9"/>
+    <text x="634" y="388" text-anchor="middle" fill="#e2e8f0" font-family="Inter, 'Segoe UI', sans-serif" font-size="20" font-weight="700">31°</text>
+  </g>
+  <text x="82" y="438" fill="#7c8da6" font-family="'JetBrains Mono', monospace" font-size="9">data diperbarui 5 menit lalu · sumber: REST API publik</text>
+</svg>
